@@ -8,12 +8,7 @@ export async function fetchDataFromApi(apiUrl) {
   
       // Extract the specified variables for each item
       const processedData = data.map(item => ({
-        collectionId: item.collectionId,
-        vol: item.vol.toFixed(2),
-        fp: item.fp.toFixed(3),
-        pending: item.pending,
-        name: item.name,
-        uniqueOwnerRatio: item.uniqueOwnerRatio.toFixed(2),
+        
         
       }));
   
